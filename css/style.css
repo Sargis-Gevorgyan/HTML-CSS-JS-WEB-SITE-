@@ -1,0 +1,493 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;   
+        color: white;       
+    }
+    
+    header nav {
+        padding: 10px;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        margin: 5px 15px;
+    }
+    
+    header nav ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    
+    header nav ul li a:hover {
+        color: rgb(255, 166, 0);
+    }
+    
+    .active {
+        color: rgb(255, 166, 0);
+    }
+    
+    header nav button {
+        color: white;
+        border-radius: 30px;
+        background-color: rgb(255, 166, 0);
+        cursor: pointer;
+        padding: 15px 25px;
+        border: 0;
+    }
+    
+    header .headerDiv button:hover {
+        background-color: rgb(255, 166, 0);
+    }
+    
+    header .headerDiv button {
+        border: 2px solid rgb(255, 166, 0);
+        color: white;
+        border-radius: 30px;
+        background-color: transparent;
+        transition: .5s;
+        cursor: pointer;
+        padding: 15px 25px;
+        width: 150px;
+        margin: 5px 5px;
+    }
+    
+    header .headerDiv button:hover {
+        background-color: rgb(255, 166, 0);
+    }
+    
+    header .headerDiv {
+        width: 1000px;
+        margin: 300px auto;
+    }
+    
+    .headerDiv h1 {
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .headerDiv span {
+        font-size: 70px;
+        color: orange;
+    }
+    
+    .headerDiv p {
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(220, 220, 220);
+    }
+    
+    .sec1 {
+        padding: 80px;
+    }
+    
+    .sec1 .mainDiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 20px;
+    }
+    
+    .sec1 .sec1Div1 {
+        background-image: url(../img/seq1nkar.jpg);
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .sec1 .mainDiv div {
+        margin: 0 30px;
+        width: 650px;
+    }
+     
+    .sec1 h3 {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .sec1 .sec1Div2 {
+        padding: 25px;
+    }
+    
+    .sec1 .sec1Div2 p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .seq2{
+        padding: 50px;
+    }
+
+    .sec2 .sec2row button{
+        border: 0;
+        background-color: rgb(246, 226, 199);
+        padding: 10px 25px;
+        border-radius: 25px;
+    }
+
+    .sec2 .sec2row span{
+        color: rgb(255, 166, 0); ;
+    }
+
+    .sec2 .sec2row2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec2 .sec2row2 .sec2Diver{
+        width: 300px;
+        background-color:#f9f9f9;
+        padding: 30px;
+     
+        margin: 5px 15px;
+    }
+
+
+    .sec2 .sec2row2 span{
+        color: rgb(255, 166, 0); ;
+        font-size: 40px;
+    }
+
+
+
+
+    .sec3{
+        padding: 80px;
+    }
+
+
+    
+    .sec3 button{
+        border: 0;
+        background-color: rgb(246, 226, 199);
+        padding: 10px 25px;
+        border-radius: 25px;
+    }
+
+    .sec3 .sec3row span{
+        color: rgb(255, 166, 0); 
+        font-size: 40px;
+    }
+
+    .sec3 .sec3row h2{
+        font-size: 40px;
+    }
+
+    .sec3 .sec3row ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec3 .sec3row ul li{
+        margin: 5px 10px;
+        cursor: pointer;
+    }
+    .sec3 .sec3row2{
+        display: flex;  
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .sec3 .sec3row2 .sec3MainDiv {
+         width: 700px;   
+    }
+    .sec3 img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .sec3 .sec3DivRow {
+        display: flex;
+        margin: 25px 5px;
+    }
+
+    .sec3 .sec3DivRow .imgDiv, .textDiv {
+        margin: 0 15px;
+    }
+    .sec3 .seq3span  span{
+        color: rgb(255, 166, 0); 
+        font-size: 20px;
+    }
+
+    .sec4{
+        padding: 80px;
+    }
+
+    .sec4 .sec4Row2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec4Div3{
+        width: 400px;
+    }
+    .sec4Div3 img{
+        width: 100%;
+    }
+
+
+    .sec4 .sec4Div1{
+        width: 300px;
+    }
+
+    .sec4 .sec4Div2{
+        width: 500px;
+    }
+
+    .sec4 h2{
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .sec4 h2 span{
+        color: rgb(255, 166, 0); 
+
+    }
+
+    .sec4 ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    .sec4 p{
+       line-height: 30px;
+    }
+    
+    .sec4 ul li{
+        margin: 10px;
+        font-size: 20px;
+        flood-color: rgb(62, 62, 62);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .seq5{
+        padding: 60px;
+    }
+    .sec5 .formRow {
+        display: flex;
+        margin: 20px 5px;
+    }
+    .sec5 button{
+        border: 0;
+        background-color: rgb(246, 226, 199);
+        padding: 10px 25px;
+        border-radius: 25px;
+    }
+
+    .sec5 .formRow div{
+        width: 100%;
+     
+    }
+
+    .sec5 input{
+        width: 100%;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        border: 1px solid rgb(187, 187, 187);
+
+    }
+    
+    .sec5 textarea{
+        width: 100%;
+        padding: 10px 5px;
+        outline: none;
+        box-sizing: border-box;
+        border: 1px solid rgb(187, 187, 187);
+
+    }
+
+
+    input[type="submit"]{
+        background-color: rgb(255, 166, 0); 
+        border: 0;
+
+    }
+    .sec5 .formCnoxDiv{
+        display: flex;
+        justify-content: center;
+    }
+      .formDiv1{     
+        width: 500px;
+    }
+    
+    
+    .formDiv2{
+        width: 700px;
+        padding: 80px 30px;
+        background-color: rgb(251, 244, 247);
+
+    }
+    .formDiv1 img{
+        width: 100%;
+    }
+
+
+    .sec6{
+        padding: 5px;
+    }
+
+
+    .sec6Row1{
+        display: flex;
+    }
+
+    .sec6ImgDiv {
+        position: relative;
+        width: 500px;
+        margin: 3px;
+    }
+
+    .sec6ImgDiv img{
+        width: 100%;
+        margin: 0 3px;
+        transition: 2s;
+    }
+
+    
+
+    .sec6 .galleryJs{
+        left: 0;
+        position: relative;
+        width: 1900px;
+        border: none;
+    }
+
+
+        #sp1{
+            display: block ;
+        position: absolute;
+        right: 200px;
+        top: 10px;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .sec6 .galleryJs #nkar1{
+        position: absolute;
+        left: 400px;
+        top: 100px;
+        width: 700px;
+        height: 600px;
+        left: 25%;
+        z-index:999;
+    }
+
+
+/* 
+    .sec6 .nkar1{
+            position: absolute;
+            width: 1000px;
+            height: 800px;
+            left: 25%;
+    } */
+
+
+    .sec6 button{
+        border: 0;
+        background-color: rgb(246, 226, 199);
+        padding: 10px 25px;
+        border-radius: 25px;
+    }
+
+
+    .sec7 {
+        padding: 15px;
+    }
+    .sec7 .row2 {
+        display: flex;
+        justify-content: center;
+    }
+    .sec7 .row2 div{
+        width: 500px;
+        margin: 10px;
+    }
+    .sec7 .row2 div img{
+        width: 100%;
+    }
+
+
+
+
+    .sec8{
+        padding: 40px;
+    }
+
+
+    .sec8 iframe{
+        margin: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+
+
+
+
+
+
+
+   footer{
+    background-color: #444444;
+    font-size: 14px;
+    padding: 40px 0 0 0;
+    position: relative;
+    margin: 0;
+   }
+
+
+
+   footer .footerRow{
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   footer .footerRow2 h3{
+    margin: 0;
+   }
+
+   footer .footerRow2 h2, h3{
+    color: rgb(255, 255, 255);
+   }
+    /* ----------------------- */
+    
+    #btn {
+        position: fixed;
+        display: none;
+        bottom: 20px;
+        right: 20px;
+        background-color: blue;
+        color: bisque;
+        cursor: pointer;
+        padding: 15px;
+    }
+    
+    #btn:hover {
+        background-color: grey;
+    }
+
+    p{
+        color: rgb(157, 157, 157);
+
+    }
+
+
+    ul{
+        list-style-type: none;
+    }
